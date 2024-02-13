@@ -1,0 +1,15 @@
+{
+  "name": "@antoine-giret/commitlint-config",
+  "version": "0.0.2",
+  "main": "./commitlint-config.js",    
+  "peerDependencies": {
+    "@commitlint/cli": "18.6.1",
+    "@commitlint/config-conventional": "18.6.1"
+  },
+  "scripts": {
+    "publish-manual": "npm publish"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
